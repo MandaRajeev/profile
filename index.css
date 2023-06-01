@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+@media screen and (max-width: 576px) {}
+
+@media screen and (max-width: 768px) {
+    .app-container {
+        width: 100vw;
+    }
+
+
+
+    .logo {
+        display: none;
+    }
+
+    .num {
+        font-size: 20px;
+    }
+
+    .number {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+.intro{
+    font-family: cursive;
+    font-weight: 600;
+    margin-top: 15px;
+}
+.app-container {
+    background-color: #1f242d;
+    color: white;
+    padding: 25px;
+}
+
+.light {
+    background-color: transparent;
+    border-width: 0px;
+}
+.typing{
+    display: inline-block;
+}
+.Name{
+    font-size: 40px;
+    font-family: monospace;
+    border-right: 4px solid;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation:
+     typing 2s steps(12),
+    cursor .4s step-end infinite alternate;
+}
+
+@keyframes cursor{
+    50% {border-color: transparent;}
+}
+
+@keyframes typing{
+    from {width: 0}
+}
+
+a {
+    font-weight: 700;
+}
+
+.icons {
+    font-size: 45px;
+}
+
+.para {
+    font-size: 20px;
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.img {
+    height: 250px;
+    width: 350px;
+    border-radius: 10px;
+
+}
+
+p {
+    font-size: 30px;
+}
+
+.links a {
+    font-size: 17px;
+    color: #64b9cc;
+    font-weight: 600;
+    transform: 3s;
+}
+
+.links a:hover,
+.links a.active {
+    color: pink;
+}
+
+
+.project {
+    height: 480px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border: solid white 2px;
+    margin-bottom: 80px;
+    box-shadow: 0 0 4rem #32dbca;
+    border-radius: 20px;
+    padding: 30px;
+    color: black;
+    text-align: center;
+}
+
+.Projects {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.heading {
+    margin-bottom: 50px;
+    margin-top: 60px;
+}
+
+
+
+.header {
+    border: solid 2px #42f5ef;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+#container {
+    padding: 25px;
+}
+
+.logo {
+    font-size: 30px;
+    color: #42f5ef;
+    cursor: default;
+    text-decoration: none;
+}
+
+.links {
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+
+.home {
+    /* height: 100%;
+    width: 100%; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-top: 20px;
+
+}
+
+.text {
+    height: 100%;
+    width: 100%;
+}
+
+h3 {
+    font-size: 30px;
+
+}
+
+h1 {
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 900;
+
+}
+
+span {
+    color: #34ebeb;
+    font-size: 45px;
+    font-family: Roboto;
+    font-weight: 900;
+    margin-bottom: 20px;
+    
+}
+
+
+
+
+
+.icon {
+    font-size: 100px;
+    color: #24a1a3;
+}
+
+.click {
+    display: inline-block;
+    padding: 1rem 1.8rem;
+    background-color: #64b9cc;
+    box-shadow: 0 0 1rem #64b9cc;
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+    font-weight: 900;
+    border-radius: 12px;
+    color: white;
+    font-family: Roboto;
+    text-decoration: none;
+    margin-top: 30px;
+    width: 250px;
+    text-decoration: none;
+}
+
+
+.skills {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.skill {
+    height: 250px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: solid white 2px;
+    margin-bottom: 80px;
+    box-shadow: 0 0 4rem #64b9cc;
+    border-radius: 60px;
+
+}
+
+.abouts {
+    margin: 30px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.about {
+
+    margin-bottom: 40px;
+
+}
+
+h2 {
+    font-size: 22px;
+}
+
+.bottom {
+    background-color: dimgray;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.number {
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+
+}
